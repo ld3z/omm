@@ -3,7 +3,7 @@ next: false
 prev: false
 ---
 
-# Installing on Google Chrome
+# Installing on Brave
 
 Before installing the userscript, you'll need a UserScript manager to manage it.
 

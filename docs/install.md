@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 # Install
 
 First select your browser below:

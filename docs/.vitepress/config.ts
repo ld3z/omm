@@ -30,10 +30,24 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Install',
+        text: 'Browsers',
         items: [
-          { text: 'Chrome', link: '/chrome-install' },
-          { text: 'Firefox', link: '/firefox-install' }
+          {
+            text: 'Chromium Browsers',
+            items: [
+              { text: 'Google Chrome', link: '/chrome-install' },
+              { text: 'Brave', link: '/brave-install' },
+              { text: 'Microsoft Edge', link: '/edge-install' },
+              { text: 'Vivaldi', link: '/vivaldi-install' }
+            ]
+          },
+          {
+            text: 'Other Browsers',
+            items: [
+              { text: 'Safari', link: '/safari-install' },
+              { text: 'Mozilla Firefox', link: '/firefox-install' }
+            ]
+          }
         ]
       }
     ],
