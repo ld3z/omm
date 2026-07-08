@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import AnnouncementBanner from './components/AnnouncementBanner.vue'
 import CardGrid from './components/CardGrid.vue'
 import DownloadButton from './components/DownloadButton.vue'
 import LinkCard from './components/LinkCard.vue'
@@ -15,6 +16,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('AnnouncementBanner', AnnouncementBanner)
     app.component('CardGrid', CardGrid)
     app.component('DownloadButton', DownloadButton)
     app.component('LinkCard', LinkCard)

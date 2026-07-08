@@ -165,21 +165,13 @@
 .vp-doc .custom-block.note {
   --admonition-icon: var(--admonition-icon-info);
   border-color: var(--vp-c-text-3);
-  background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--vp-c-default-3) 40%, var(--vp-c-bg)),
-    color-mix(in srgb, var(--vp-c-default-3) 10%, var(--vp-c-bg))
-  );
+  background-color: var(--vp-c-default-soft);
 }
 
 .vp-doc .custom-block.tip {
   --admonition-icon: var(--admonition-icon-tip);
   border-color: var(--vp-c-brand-2);
-  background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--vp-c-brand-3) 24%, var(--vp-c-bg)),
-    color-mix(in srgb, var(--vp-c-brand-3) 6%, var(--vp-c-bg))
-  );
+  background-color: var(--vp-c-brand-soft);
 }
 
 .vp-doc .custom-block.tip .custom-block-title {
@@ -189,11 +181,7 @@
 .vp-doc .custom-block.important {
   --admonition-icon: var(--admonition-icon-important);
   border-color: var(--vp-c-purple-2);
-  background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--vp-c-purple-3) 24%, var(--vp-c-bg)),
-    color-mix(in srgb, var(--vp-c-purple-3) 6%, var(--vp-c-bg))
-  );
+  background-color: var(--vp-c-purple-soft);
 }
 
 .vp-doc .custom-block.important .custom-block-title {
@@ -203,11 +191,7 @@
 .vp-doc .custom-block.warning {
   --admonition-icon: var(--admonition-icon-warning);
   border-color: var(--vp-c-warning-2);
-  background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--vp-c-warning-3) 24%, var(--vp-c-bg)),
-    color-mix(in srgb, var(--vp-c-warning-3) 6%, var(--vp-c-bg))
-  );
+  background-color: var(--vp-c-warning-soft);
 }
 
 .vp-doc .custom-block.warning .custom-block-title {
@@ -218,11 +202,7 @@
 .vp-doc .custom-block.caution {
   --admonition-icon: var(--admonition-icon-danger);
   border-color: var(--vp-c-danger-2);
-  background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--vp-c-danger-3) 24%, var(--vp-c-bg)),
-    color-mix(in srgb, var(--vp-c-danger-3) 6%, var(--vp-c-bg))
-  );
+  background-color: var(--vp-c-danger-soft);
 }
 
 .vp-doc .custom-block.danger .custom-block-title,
@@ -233,11 +213,7 @@
 .vp-doc .custom-block.details {
   --admonition-icon: var(--admonition-icon-details);
   border-color: var(--vp-c-divider);
-  background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--vp-c-default-3) 32%, var(--vp-c-bg)),
-    color-mix(in srgb, var(--vp-c-default-3) 8%, var(--vp-c-bg))
-  );
+  background-color: var(--vp-c-default-soft);
 }
 
 .vp-doc .custom-block.details summary::before {

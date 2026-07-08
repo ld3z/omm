@@ -5,6 +5,10 @@ prev: false
 
 # Installing on Safari
 
+<AnnouncementBanner>
+  This page is still being written — some steps may be incomplete.
+</AnnouncementBanner>
+
 Before installing the userscript, you'll need a UserScript manager to manage it.
 
 ::: warning Note:
