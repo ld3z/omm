@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Installing on Chrome
 
 Before installing the userscript, you'll need a UserScript manager to manage it.
