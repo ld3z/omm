@@ -14,8 +14,22 @@ Before installing the userscript, you'll need a UserScript manager to manage it.
 
    <DownloadButton link="https://chromewebstore.google.com/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf">Get ScriptCat</DownloadButton>
 
-2. Install the userscript
+2. Turn on ```Allow User Scripts```
+
+   ![img1](https://docs.scriptcat.org/en/assets/images/chrome-extensions-page-fcb58c071828884a83bec334543ce417.webp)
+
+   In the extension management interface, find the ScriptCat extension and click ```Details```
+
+   ![img2](https://docs.scriptcat.org/en/assets/images/scriptcat-extension-details-9957c116842ba0a6ada7b9118fa3dabc.webp)
+
+   In the ScriptCat extension details page, find the ```Allow user scripts``` option and enable it. Then disable and re-enable the extension, or restart the browser to make the script functionality effective.
+
+   ![img3](https://docs.scriptcat.org/en/assets/images/allow-user-scripts-toggle-51fd7d8dfdd2ce9cc29ea95bcf709205.webp)
+
+3. Install the userscript
 
    Once ScriptCat is installed, install the OhMyMathpad userscript.
+
+   <DownloadButton link="https://raw.githubusercontent.com/ld3z/oh-my-mathpad/main/oh-my-mathpad.user.js" secondary>Download</DownloadButton>
 
 :::
