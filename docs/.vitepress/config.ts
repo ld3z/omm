@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import container from 'markdown-it-container'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,7 +10,15 @@ export default defineConfig({
   base: '/oh-my-mathpad/',
 
   markdown: {
-    math: true
+    math: true,
+    config(md) {
+      // ::: steps ... ::: turns the numbered list inside into styled steps
+      md.use(container, 'steps', {
+        render(tokens: any[], idx: number) {
+          return tokens[idx].nesting === 1 ? '<div class="vp-steps">\n' : '</div>\n'
+        }
+      })
+    }
   },
 
   themeConfig: {

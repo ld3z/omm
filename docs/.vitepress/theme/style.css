@@ -129,3 +129,66 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+/**
+ * Component: Steps (::: steps container)
+ * -------------------------------------------------------------------------- */
+
+.vp-steps > ol {
+  counter-reset: vp-step;
+  margin: 16px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.vp-steps > ol > li {
+  counter-increment: vp-step;
+  position: relative;
+  margin: 0;
+  padding: 0 0 24px 48px;
+}
+
+/* numbered circle */
+.vp-steps > ol > li::before {
+  content: counter(vp-step);
+  position: absolute;
+  top: -2px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* connecting line between circles */
+.vp-steps > ol > li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 34px;
+  bottom: 4px;
+  left: 15.5px;
+  width: 1px;
+  background-color: var(--vp-c-divider);
+}
+
+.vp-steps > ol > li:last-child {
+  padding-bottom: 0;
+}
+
+/* first paragraph acts as the step title */
+.vp-steps > ol > li > p:first-child {
+  margin-top: 0;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.vp-steps > ol > li > p {
+  margin: 8px 0 0;
+}
+
