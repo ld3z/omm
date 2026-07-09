@@ -1,1 +1,1 @@
-# oh-my-mathpad
+# oh-my-mathpad (OMM)

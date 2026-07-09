@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'A great tool',
   cleanUrls: true,
   lastUpdated: true,
-  base: '/oh-my-mathpad/',
+  base: '/omm/',
 
   markdown: {
     math: true,
