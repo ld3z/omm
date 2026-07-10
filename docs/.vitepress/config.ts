@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'A great tool',
   cleanUrls: true,
   lastUpdated: true,
-  base: '/omm/',
+//  base: '/omm/',
 
   markdown: {
     math: true,
