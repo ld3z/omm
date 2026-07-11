@@ -4,8 +4,8 @@
 // @description  Type pi, sqrt, etc. in WebAssign and get math symbols
 // @match        *://*.webassign.net/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/ld3z/oh-my-mathpad/main/oh-my-mathpad.user.js
-// @downloadURL  https://raw.githubusercontent.com/ld3z/oh-my-mathpad/main/oh-my-mathpad.user.js
+// @updateURL    https://raw.githubusercontent.com/ld3z/omm/main/oh-my-mathpad.user.js
+// @downloadURL  https://raw.githubusercontent.com/ld3z/omm/main/oh-my-mathpad.user.js
 // ==/UserScript==
 
 (function () {
