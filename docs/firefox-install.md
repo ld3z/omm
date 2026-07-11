@@ -19,6 +19,6 @@ Before installing the userscript, you'll need a UserScript manager to manage it.
 
    Once Violentmonkey is installed, install the OhMyMathpad userscript.
 
-   <DownloadButton link="https://raw.githubusercontent.com/ld3z/oh-my-mathpad/main/oh-my-mathpad.user.js" secondary>Download</DownloadButton>
+   <DownloadButton link="https://raw.githubusercontent.com/ld3z/omm/main/oh-my-mathpad.user.js" secondary>Download</DownloadButton>
 
 :::
