@@ -7,10 +7,12 @@ export default defineConfig({
   description: 'A great tool',
   cleanUrls: true,
   lastUpdated: true,
-//  base: '/omm/',
+  head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
+  //  base: '/omm/',
 
   markdown: {
     math: true,
+    image: { lazyLoading: true },
     config(md) {
       // ::: steps ... ::: turns the numbered list inside into styled steps
       md.use(container, 'steps', {

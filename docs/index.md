@@ -5,6 +5,9 @@ layout: home
 hero:
   name: "OhMyMathpad"
   tagline: A userscript created to fix sqrt and pi in WebAssign
+  image:
+    src: /favicon.svg
+    alt: OMMLogo
   actions:
     - theme: brand
       text: How to Install?
