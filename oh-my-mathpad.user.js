@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OhMyMathpad
-// @version      1.0.0
+// @version      1.0.1
 // @description  Type pi, sqrt, etc. in WebAssign and get math symbols
 // @match        *://*.webassign.net/*
 // @grant        none
@@ -20,7 +20,8 @@
   const REPLACEMENTS = {
     'pi': 'π', 'inf': '∞', 'theta': 'θ', 'alpha': 'α',
     'beta': 'β', 'delta': 'δ', 'sigma': 'σ', 'mu': 'μ', 'lambda': 'λ',
-    'gamma': 'γ', 'pm': '±', 'deg': '°', 'times': '×', 'div': '÷',
+    'gamma': 'γ', 'pm': '±', 'deg': '°',
+    // 'times': '×', 'div': '÷',
   };
 
   // Keywords that must trigger a real WIRIS toolbar button click,
