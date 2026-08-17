@@ -21,6 +21,6 @@
   "type": "module",
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
-    "blume": "^1.4.3"
+    "blume": "^1.5.1"
   }
 }
