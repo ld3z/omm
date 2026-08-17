@@ -42,5 +42,6 @@ export default defineConfig({
   },
   deployment: {
     output: "static",
+    site: "https://omm-9lk.pages.dev"
   },
 });
