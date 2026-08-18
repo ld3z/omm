@@ -1,0 +1,33 @@
+---
+import Icon from "blume/components/Icon.astro";
+import { contentHref } from "blume/components/content/base-href.ts";
+
+interface Props {
+  /** Page, file, or external URL the button opens. */
+  href: string;
+  /** Icon name, image path, or inline SVG shown before the label. */
+  icon?: string;
+  /** Render in the subtle secondary style. */
+  secondary?: boolean | string;
+}
+
+const { href, icon = "download", secondary } = Astro.props;
+const external = href.startsWith("http");
+const isSecondary = secondary === true || secondary === "true";
+---
+
+<a
+  class:list={[
+    "not-prose my-2 inline-flex h-10 items-center gap-2 rounded-blume px-5 align-middle font-medium text-sm no-underline! transition hover:no-underline! [&>p]:m-0!",
+    isSecondary
+      ? "border border-border bg-background text-foreground hover:border-accent hover:bg-muted"
+      : "bg-accent text-white! hover:bg-accent/90",
+  ]}
+  data-blume-download-button
+  href={contentHref(href)}
+  rel={external ? "noreferrer" : undefined}
+  target="_blank"
+>
+  <Icon class="shrink-0" icon={icon} size={16} />
+  <slot>Download</slot>
+</a>

@@ -2,3 +2,4 @@ node_modules/
 arch/
 .blume/
 dist/
+.blume-verify/
