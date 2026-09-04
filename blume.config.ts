@@ -28,6 +28,11 @@ export default defineConfig({
     },
   },
 
+  image: {
+    domains: ["docs.scriptcat.org"],
+    remotePatterns: [{ protocol: "https", hostname: "**.scriptcat.org" }],
+  },
+
   seo: {
     og: { enabled: true },
     rss: { enabled: true, types: ["blog", "changelog"] },
