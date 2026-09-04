@@ -20,7 +20,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
+    "@astrojs/sitemap": "^3.7.4",
     "blume": "^1.6.0"
   }
 }
