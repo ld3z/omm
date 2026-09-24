@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "blume dev",
-    "build": "blume build"
+    "build": "blume build && pnpm exec jampack ./dist"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
   "type": "module",
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
+    "@divriots/jampack": "^0.34.1",
     "blume": "^2.0.1"
   }
 }

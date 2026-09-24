@@ -3,3 +3,4 @@ arch/
 .blume/
 dist/
 .blume-verify/
+.jampack/

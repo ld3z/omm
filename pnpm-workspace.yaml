@@ -1,5 +1,7 @@
 allowBuilds:
   '@scarf/scarf': true
+  '@swc/core': true
   esbuild: true
+  sharp: true
 minimumReleaseAgeExclude:
   - blume@1.6.0 || 1.6.4 || 2.0.1
