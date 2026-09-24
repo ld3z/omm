@@ -8,19 +8,20 @@ export default defineConfig({
   banner: {
     content: "This documentation is subject to change.",
     dismissible: true,
-    id: "v1"
+    id: "v1",
   },
+
   integrations: [sitemap()],
-  lastModified: true,
+
+  lastModified: "git",
   dateFormat: { dateStyle: "medium" },
 
   markdown: {
     imageZoom: true,
+    externalLinks: true,
     code: {
       icons: true,
       wrap: false,
-    },
-    codeBlocks: {
       theme: {
         light: "github-light",
         dark: "github-dark",
@@ -31,6 +32,11 @@ export default defineConfig({
   image: {
     domains: ["docs.scriptcat.org"],
     remotePatterns: [{ protocol: "https", hostname: "**.scriptcat.org" }],
+  },
+
+  agents: {
+    llmsTxt: true,
+    catalog: true,
   },
 
   seo: {
@@ -45,8 +51,8 @@ export default defineConfig({
     owner: "ld3z",
     repo: "omm",
   },
+
   deployment: {
-    output: "static",
-    site: "https://omm-9lk.pages.dev"
+    site: "https://omm-9lk.pages.dev",
   },
 });
