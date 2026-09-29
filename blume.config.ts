@@ -43,7 +43,6 @@ export default defineConfig({
       "/install",
       {
         label: "Installing",
-        collapsed: false,
         items: ["/installing/chrome",
           "/installing/brave",
           "/installing/edge",
