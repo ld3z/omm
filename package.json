@@ -14,7 +14,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "11.21.0",
+      "version": "12.8.1",
       "onFail": "download"
     }
   },
@@ -22,6 +22,6 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
     "@divriots/jampack": "^0.34.1",
-    "blume": "^2.0.1"
+    "blume": "^2.0.3"
   }
 }
