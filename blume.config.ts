@@ -37,6 +37,24 @@ export default defineConfig({
   { from: "/opera-install", to: "/installing/opera", status: 301 },
   { from: "/firefox-install", to: "/installing/firefox", status: 301 }],
 
+  navigation: {
+    sidebar: [
+      "/",
+      "/install",
+      {
+        label: "Installing",
+        collapsed: false,
+        items: ["/installing/chrome",
+          "/installing/brave",
+          "/installing/edge",
+          "/installing/vivaldi",
+          "/installing/opera",
+          "/installing/firefox",
+          "/installing/safari"],
+      }
+    ],
+  },
+
   agents: {
     llmsTxt: true,
     catalog: true,
