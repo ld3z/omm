@@ -29,10 +29,13 @@ export default defineConfig({
     },
   },
 
-  image: {
-    domains: ["docs.scriptcat.org"],
-    remotePatterns: [{ protocol: "https", hostname: "**.scriptcat.org" }],
-  },
+  redirects: [{ from: "/chrome-install", to: "/installing/chrome", status: 301 },
+  { from: "/brave-install", to: "/installing/brave", status: 301 },
+  { from: "/vivaldi-install", to: "/installing/vivaldi", status: 301 },
+  { from: "/safari-install", to: "/installing/safari", status: 301 },
+  { from: "/edge-install", to: "/installing/edge", status: 301 },
+  { from: "/opera-install", to: "/installing/opera", status: 301 },
+  { from: "/firefox-install", to: "/installing/firefox", status: 301 }],
 
   agents: {
     llmsTxt: true,
