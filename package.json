@@ -21,7 +21,7 @@
   "type": "module",
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "@divriots/jampack": "^0.34.1",
-    "blume": "^2.0.3"
+    "@divriots/jampack": "^0.34.2",
+    "blume": "^2.2.2"
   }
 }
