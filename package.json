@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "blume dev",
-    "build": "blume build && pnpm exec jampack ./dist"
+    "build": "blume build && bunx jampack ./dist"
   },
   "keywords": [],
   "author": "",
