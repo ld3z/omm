@@ -1,20 +1,18 @@
 {
   "name": "omm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "blume dev",
-    "build": "blume build && bunx jampack ./dist"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "type": "module",
+  "scripts": {
+    "dev": "blume dev",
+    "build": "blume build && bunx jampack ./dist",
+    "doctor": "blume doctor"
+  },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
     "@divriots/jampack": "^0.34.2",
     "blume": "^2.2.3"
-  }
+  },
+  "trustedDependencies": [
+    "@swc/core"
+  ]
 }
